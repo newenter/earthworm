@@ -7,6 +7,15 @@
     <groupId>com.oneape</groupId>
     <artifactId>earthworm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <url>https://github.com/newenter/earthworm</url>
+
+    <developers>
+        <developer>
+            <name>Zheng Ninglin</name>
+            <email>new-enter@163.com</email>
+            <url>http://www.zhengnl.cn</url>
+        </developer>
+    </developers>
 
     <properties>
         <jdk.version>1.8</jdk.version>
@@ -38,4 +47,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/newenter/earthworm/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/newenter/earthworm.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:newenter/earthworm.git</developerConnection>
+        <url>https://github.com/newenter/earthworm.git</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
